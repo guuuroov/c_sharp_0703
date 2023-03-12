@@ -3,7 +3,11 @@ Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine()!);
 int thDigit = (num /100)%10;
 
-
+while(num>999)
+{
+  thDigit = (num/1000)%10;
+  
+}
 
 if (thDigit ==0)
 {
