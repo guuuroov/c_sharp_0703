@@ -4,3 +4,7 @@ int num = int.Parse(Console.ReadLine()!);
 
 int secondDigit = (num/10)%10;
 Console.WriteLine("Вторая цифра числа: " + secondDigit);
+if (num<100)
+{
+  Console.WriteLine("Введите трёхзначное число!");
+}
